@@ -51,7 +51,6 @@ const Users = () => {
                 value={userName}
                 onChange={(e) => setUserName(e.target.value)}
             />
-
             <input 
                 type="text" 
                 placeholder="surname users..."
