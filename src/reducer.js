@@ -16,7 +16,7 @@ const reducer = (state = initialState, action) => {
         case 'REMOVE_LAST_USER':
             return {
                 ...state,
-                users: state.users.slice(0, 1),
+                users: state.users.slice(0, -1),
             }
         case 'CLEAR_USERS':
             return {
